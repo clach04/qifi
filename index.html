@@ -200,6 +200,7 @@
             qrstring += ';';
             $('#qrcode').empty();
             $('#qrcode').qrcode(qrstring);
+            console.log(qrstring);
             $('#showssid').text('SSID: '+ssid);
             $('#save').show();
             $('#print').css('display', 'inline-block');
